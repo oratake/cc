@@ -1,0 +1,34 @@
+-- farming
+
+-- config
+MAX = 10
+SEED_SLOT = 1
+MEAL_SLOT = 2
+
+-- define functions
+function plantSeed()
+turtle.select(SEED_SLOT)
+turtle.place()
+end
+
+function useMeals()
+turtle.select(MEAL_SLOT)
+turtle.place()
+turtle.place()
+turtle.place()
+end
+
+function harvest()
+turtle.select(SEED_SLOT)
+turtle.dig()
+end
+
+-- #############
+-- Main
+turtle.dig() 
+for i=1,MAX do
+print(i,'/',MAX)
+plantSeed()
+useMeals()
+harvest()
+end
