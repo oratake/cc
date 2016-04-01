@@ -1,0 +1,32 @@
+-- functions
+function myRefuel()
+turtle.select(16)  -- fuel item slot is 16
+turtle.refuel()
+end
+
+function revolve()
+for i=1, 4 do -- dig four sides
+turtle.dig()
+turtle.turnRight()
+end
+
+turtle.digDown() -- dig down side
+
+return turtle.down() -- go down. if failed, return false.
+end
+
+function backToHome(n)
+for i=1, n do -- back to home position.
+turtle.up()
+end
+end
+
+-- main
+myRefuel()
+
+local depth = 0
+while revolve() do
+depth = depth +1
+end
+
+backToHome(depth)

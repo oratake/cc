@@ -1,0 +1,15 @@
+turtle.select(16)  -- fuel item slot is 16
+turtle.refuel()
+
+local depth = 0
+while
+for i=1, 4 do -- 4辺を掘る
+turtle.dig()
+turtle.turnRight()
+do
+depth = depth +1
+end
+
+for i=1, depth do -- 元の場所に戻る
+turtle.up()
+end

@@ -1,0 +1,87 @@
+-- number Nomalise
+beat = 0.7
+
+-- side(noteBlock)
+C4 = "back"
+D4 = "right"
+E4 = "front"
+G3 = "left"
+
+-- redstone Nomalise
+rs.setOutput(C4,false)
+rs.setOutput(D4,false)
+rs.setOutput(E4,false)
+rs.setOutput(G3,false)
+
+rs.setOutput(C4,true)
+os.sleep(beat)
+rs.setOutput(C4,false)
+
+rs.setOutput(E4,true)
+os.sleep(beat)
+rs.setOutput(E4,false)
+
+rs.setOutput(D4,true)
+os.sleep(beat)
+rs.setOutput(D4,false)
+
+rs.setOutput(G3,true)
+os.sleep(beat)
+rs.setOutput(G3,false)
+
+os.sleep(beat)
+os.sleep(beat)
+
+rs.setOutput(C4,true)
+os.sleep(beat)
+rs.setOutput(C4,false)
+
+rs.setOutput(D4,true)
+os.sleep(beat)
+rs.setOutput(D4,false)
+
+rs.setOutput(E4,true)
+os.sleep(beat)
+rs.setOutput(E4,false)
+
+rs.setOutput(C4,true)
+os.sleep(beat)
+rs.setOutput(C4,false)
+
+os.sleep(beat)
+os.sleep(beat)
+
+rs.setOutput(E4,true)
+os.sleep(beat)
+rs.setOutput(E4,false)
+
+rs.setOutput(C4,true)
+os.sleep(beat)
+rs.setOutput(C4,false)
+
+rs.setOutput(D4,true)
+os.sleep(beat)
+rs.setOutput(D4,false)
+
+rs.setOutput(G3,true)
+os.sleep(beat)
+rs.setOutput(G3,false)
+
+os.sleep(beat)
+os.sleep(beat)
+
+rs.setOutput(G3,true)
+os.sleep(beat)
+rs.setOutput(G3,false)
+
+rs.setOutput(D4,true)
+os.sleep(beat)
+rs.setOutput(D4,false)
+
+rs.setOutput(E4,true)
+os.sleep(beat)
+rs.setOutput(E4,false)
+
+rs.setOutput(C4,true)
+os.sleep(beat)
+rs.setOutput(C4,false)
