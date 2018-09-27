@@ -1,5 +1,5 @@
 # cc
-minecraft oratake's server ComputerCraft Program repo.
+Minecraft(ゲーム)のMOD、ComputerCraftを用いたプログラミング学習の研究。
 
 ## Minecraftを使ったプログラミング教材
 ComputerCraftを用いたプログラミング教育のための、プログラムファイル置き場です。
